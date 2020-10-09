@@ -1,0 +1,118 @@
+body{
+  background-color:white;
+}
+
+div{
+    border-radius: 5px;
+    background-color: #130a40;
+    padding: 20px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 18px;
+
+}
+/* 4CAF50 */
+input[type=submit] {
+    width: 100%;
+    background-color: #864bd2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+  }
+
+  input[type=button]{
+    width: 100%;
+    background-color: #d81175;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4c1692;
+    color:white;
+  }
+  input[type=button]:hover{
+background-color: #ad0a5c;
+color:white;
+  }
+
+  .view{
+    border: 3 solid gray;
+    border-radius: 4px;
+    background-color: #130a40;
+    padding: 20px;
+  }
+  .divim{
+    /*  */
+    width: 24%;
+    height: 52%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    display: inline-block;
+    margin-left: 62px;
+  }
+  .container{
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .container p {
+    width: 24%;
+   
+  }
+.label1{
+  color: white;
+  font-size: 18px;
+   width: 32px;
+  font-weight: bold; margin-left: 10px;
+  font-family: sans-serif;
+}
+  h3{
+    width: 100%;
+    text-align: center;
+    text-shadow: 0 0 3px white, 0 0 5px #9e9a9a;
+    font-size: 25px;
+    margin-top: 20px;
+ 
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+  }
+
+  @keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+  }
+
+
+  .imgv{
+    width: 99%;
+    height: 85%;
+    padding: -12px;
+  
+  }
+  .pimg{
+    text-shadow: 2px 2px 8px #281480;
+    margin-left: 50px;
+  }
